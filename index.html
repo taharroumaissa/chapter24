@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Celebrating 24 years — Software Engineer, Builder, Dreamer." />
+  <meta name="theme-color" content="#080808" />
+  <title>Chapter 24 — 13 June 2002</title>
+
+  <!-- ============================================================
+       ANALYTICS PLACEHOLDER
+       Paste your Google Analytics or Umami script tag below.
+       ============================================================ -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader" class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__number">24</span>
+      <div class="loader__bar"><div class="loader__bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#hero">Chapter 24</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#age">My Age</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#facts">Facts</a></li>
+      <li><a href="#storenest">StoreNest</a></li>
+      <li><a href="#guestbook">Guestbook</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero__content">
+      <p class="hero__eyebrow reveal">13 June 2002 &mdash; 13 June 2026</p>
+      <h1 class="hero__title reveal">
+        <span class="hero__title-chapter">Chapter</span>
+        <span class="hero__title-number">24</span>
+      </h1>
+      <p class="hero__subtitle reveal">
+        Software engineer in the making. Startup builder.<br />
+        Human always in progress.
+      </p>
+      <a href="#age" class="btn btn--outline reveal">Begin the Story</a>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LIVE AGE SECTION  (replaces countdown)
+       ============================================================ -->
+  <section class="section age-section" id="age">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Right This Second</p>
+        <h2 class="section-title">I Have Been Alive For&hellip;</h2>
+      </div>
+
+      <div class="age-hero reveal">
+        <span class="age-hero__number" id="ageExact">24.000</span>
+        <span class="age-hero__label">years</span>
+      </div>
+
+      <div class="age-grid reveal">
+        <div class="age-unit glass">
+          <span class="age-unit__number" id="ageMonths">0</span>
+          <span class="age-unit__label">Months lived</span>
+        </div>
+        <div class="age-unit glass">
+          <span class="age-unit__number" id="ageDays">0</span>
+          <span class="age-unit__label">Days on Earth</span>
+        </div>
+        <div class="age-unit glass">
+          <span class="age-unit__number" id="ageHours">0</span>
+          <span class="age-unit__label">Hours awake (approx)</span>
+        </div>
+        <div class="age-unit glass">
+          <span class="age-unit__number" id="ageSeconds">0</span>
+          <span class="age-unit__label">Seconds &mdash; live</span>
+        </div>
+      </div>
+
+      <p class="age-quote reveal" id="ageQuote"></p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       JOURNEY / TIMELINE
+       ============================================================ -->
+  <!-- INTJ BANNER -->
+  <div class="intj-banner">
+    <div class="intj-banner__inner">
+      <span class="intj-banner__label">Personality</span>
+      <span class="intj-banner__type">INTJ</span>
+      <span class="intj-banner__sub">The Architect — I don't follow the crowd. I design it.</span>
+    </div>
+  </div>
+
+  <section class="section journey" id="journey">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Looking Back</p>
+        <h2 class="section-title">My Journey</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">13 June 2002</span>
+            <h3 class="timeline__event">The Beginning</h3>
+            <p class="timeline__desc">Arrived on a Thursday in June. Nobody warned the world. Nobody asked if I was ready. I wasn't — but here we are, twenty-four years later.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">2007</span>
+            <h3 class="timeline__event">First Day of School</h3>
+            <p class="timeline__desc">Walked in with a backpack bigger than me and immediately started pretending to understand what the teacher was saying. A skill I still use today.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">2019</span>
+            <h3 class="timeline__event">Baccalaureate — Year 1</h3>
+            <p class="timeline__desc">Passed the first Bac. Survived the most stressful exam Algeria has to offer and came out the other side with a certificate and a newfound appreciation for summer.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">2020</span>
+            <h3 class="timeline__event">Baccalaureate — Year 2</h3>
+            <p class="timeline__desc">Second Bac, done. The world locked down. I did not. Between pandemic silence and study sessions, the idea of building things with code started feeling less like a plan and more like a calling.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">2021</span>
+            <h3 class="timeline__event">Baccalaureate — Year 3</h3>
+            <p class="timeline__desc">Third year, third Bac. By now the grind was familiar. Discipline over motivation. Showed up anyway. Passed anyway. That lesson turned out to be more valuable than the diploma itself.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">2022</span>
+            <h3 class="timeline__event">Baccalaureate — Year 4 + University Begins</h3>
+            <p class="timeline__desc">Fourth Bac. Then, in September 2022, something shifted: first lecture on algorithms. A professor wrote pseudocode on a board and something clicked that has never unclicked since. This was the language I had been looking for.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card glass">
+            <span class="timeline__year">Now</span>
+            <h3 class="timeline__event">Master 1 — Software Engineering</h3>
+            <p class="timeline__desc">Living the dream specialty. Building <strong>StoreNest</strong> on the side. Twenty-four years old, a Master's in progress, and a whole future left to write — in clean, well-commented code.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       24 FACTS — Dev Edition (funny, relatable, no real personal info)
+       ============================================================ -->
+  <section class="section facts" id="facts">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Who I Really Am</p>
+        <h2 class="section-title">24 Facts About Me</h2>
+        <p class="section-desc reveal">The version of me that exists when nobody is watching.</p>
+      </div>
+      <div class="facts__grid">
+        <!-- Rendered by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       STORENEST SECTION
+       ============================================================ -->
+  <section class="section storenest" id="storenest">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What I'm Building</p>
+        <h2 class="section-title">StoreNest</h2>
+      </div>
+      <div class="storenest__card glass reveal">
+        <div class="storenest__badge">Coming Soon</div>
+        <div class="storenest__logo" aria-hidden="true">
+          <span class="storenest__logo-text">StoreNest</span>
+        </div>
+        <p class="storenest__desc">
+          A startup I'm building with my partner hadjer from scratch — because the best way to apply everything you learn
+          is to build something real, something yours, something that could one day matter to other people.
+        </p>
+        <p class="storenest__teaser">
+          The work is ongoing. The launch is coming. Stay tuned.
+        </p>
+        <div class="storenest__tags">
+          <span class="tag">Startup</span>
+          <span class="tag">Software</span>
+          <span class="tag">In Progress</span>
+          <span class="tag">Launching Soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GUESTBOOK
+       ============================================================ -->
+  <section class="section guestbook" id="guestbook">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Leave a Mark</p>
+        <h2 class="section-title">Guestbook</h2>
+        <p class="section-desc reveal">Your words become part of this story. Write something I'll carry with me.</p>
+      </div>
+
+      <!--
+        FORMSPREE: Replace YOUR_FORM_ID with your actual Formspree form ID.
+        Sign up at formspree.io → create a form → copy the ID here.
+      -->
+      <form
+        class="guestbook__form glass reveal"
+        id="guestbookForm"
+        action="https://formspree.io/f/mnjygvkq"
+        method="POST"
+      >
+        <div class="form__group">
+          <label class="form__label" for="gbName">Your Name</label>
+          <input
+            class="form__input"
+            type="text"
+            id="gbName"
+            name="name"
+            placeholder="What should I call you?"
+            required
+            autocomplete="name"
+          />
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="gbMessage">Your Message</label>
+          <textarea
+            class="form__textarea"
+            id="gbMessage"
+            name="message"
+            placeholder="A wish, a memory, a piece of advice — anything goes."
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button class="btn btn--gold" type="submit">
+          <span class="btn__text">Leave Your Mark</span>
+        </button>
+        <p class="form__success" id="formSuccess" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__title">Chapter 24</p>
+      <p class="footer__tagline">Built by a software engineer.</p>
+      <div class="footer__socials">
+        <!-- Replace # with your real URLs -->
+        
+        <a href="https://github.com/taharroumaissa" class="footer__social-link" aria-label="GitHub" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/rouma%C3%AFssa-tahar-djebbar-14439b314/" class="footer__social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        
+      </div>
+      <p class="footer__copy">&copy; <span id="footerYear"></span> &mdash; Crafted with intention &amp; caffeine. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
